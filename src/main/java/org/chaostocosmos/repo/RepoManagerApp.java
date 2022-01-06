@@ -109,7 +109,8 @@ public class RepoManagerApp implements ConsoleTrigger {
                 .forEach(p -> threadpool.submit(new Runnable() {
                     @Override
                     public void run() {
-                        System.out.println("######################################################################################################"+System.lineSeparator()
+                        System.out.println(
+                        "######################################################################################################"+System.lineSeparator()
                         +"JOB pom.xml path: "+p.toFile().getAbsolutePath()+System.lineSeparator()
                         +"######################################################################################################");        
                         try {                
