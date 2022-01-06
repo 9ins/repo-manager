@@ -1,0 +1,40 @@
+{
+    "console": "integratedTerminal",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch RepoApp",
+            "request": "launch",
+            "mainClass": "com.innoquartz.repodowner.RepoApp",
+            "projectName": "repodowner"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathTest",
+            "request": "launch",
+            "mainClass": "com.innoquartz.repodowner.PathTest",
+            "projectName": "repodowner"
+        },
+        {
+            "type": "java",
+            "name": "Launch AetherManager",
+            "request": "launch",
+            "mainClass": "com.innoquartz.repodowner.AetherManager",
+            "projectName": "repodowner"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepoDownerAppTest",
+            "request": "launch",
+            "mainClass": "com.innoquartz.repodowner.RepoDownerAppTest",
+            "projectName": "repodowner"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepoDownerApp",
+            "request": "launch",
+            "mainClass": "com.innoquartz.repodowner.RepoDownerApp",
+            "projectName": "repodowner"
+        }
+    ]
+}

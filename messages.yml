@@ -1,0 +1,17 @@
+TRADEMARK_FILE: './trademark'
+VERSION: '4.0.0'
+
+TITLE: 'MVN Repository Downloader'
+PROLOGUE: 'It can be downloaded all of Project Maven Libraries by using this!'
+
+
+QUERYS:
+  QUERY1: 'MVN repository URL: '
+  QUERY2: 'MVN repository ID(central): '
+  QUERY3: 'MVN repository TYPE(default): '
+  QUERY4: 'Scan pom.xml path: '
+  QUERY5: 'Local repository path(./repo): '  
+  QUERY6: 'Working thread count: '
+  END:
+
+
